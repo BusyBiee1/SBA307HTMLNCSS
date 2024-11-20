@@ -1,4 +1,21 @@
-.topbar{
+
+
+  /* The animation code */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: pink;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+/* The element to apply the animation to */
+/*navbar {*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*background-color: 0c9c89;
+    animation-name: example;
+    animation-duration: 4s;
+  }*/
+  .topbar{
     height: 100px;
     background-color: greenyellow;
     border-width: 1px;
@@ -11,6 +28,13 @@
     height:80px;
     width: auto;
 }
+
+/*@media only screen and (max-width: 600px) {
+    .topbar {
+      background-color: lightblue;
+    }
+  }
+*/
 
 .search {
     
@@ -71,6 +95,10 @@ margin-left:100px;
     background-color: #0c9c89;
     align-items: center;
     justify-content: center;
+    background-color: 0c9c89;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
   
   /* Style the navigation bar links */
