@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>me the Cat</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="sytle.css">
+        <link rel="stylesheet" href="style-popupform.css">
+    </head>
+
+    <body>
+       
+        <!-- div for top bar-->
+        <Div class="topbar">
+            <img class="topbarimg" src="/images/me.jpg" alt="me">
+            <div class="search">
+                <form action="#">
+                    <input type="text" placeholder="Search"
+                           name="search">
+                    <button type="submit"> Search</button>
+                </form>
+            </div>
+            <div class="signupbtn">
+                <button class="open-button2" onclick="openForm()">Sign in</button>  
+                <!--<button onclick="document.getElementById('id01')">Sign Up</button>-->
+            </div>
+
+        </Div>
+
+        <!-- div for Nav bar-->
+        <Div class="navbar">
+            <!-- href="#">Experience: </a>  -->
+            <a href="index.html">Credentials</a>
+            <a href="HeadShots.html">Head Shots</a>
+            <a href="likes.html">Likes</a>
+            <a href="familyfriends.html">Family & Friends</a>
+            <a href="contact.html">Contact</a> 
+            <!--<button class="open-button" onclick="openForm()">Contact</button>  -->
+        </Div>
+
+        <!-- div for body-->
+        <Div>
+            <section class="MyCredentials">
+                <div class="bodysectiontitle">
+                    <p> <h2>Head Shots</h2></p>
+                    <a href="#" onclick="history.go(-1)">Go Back</a>                
+                </div>
+                <table class="table">
+                <thead>
+                  <tr>
+                    <th class="col" scope="col">#</th>
+                    <th class="col" scope="col">Date</th>
+                    <th class="col" scope="col">Desc</th>
+                    <th class="col" scope="col">Img</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="row" scope="row">1</th>
+                        <td class="row">8th july 2024</td>
+                        <td class="row">Busy life. So its good to catch some sleep as much as possible</td>
+                        <td>
+                            <img class="imgincell" src= "/images/checking.jpeg" alt="picnap">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <th class="row" scope="row">2</th>
+                        <td class="row">19th oct 2024</td>
+                        <td class="row">Hunting for fun. Hurting in the backyard is my fav sport</td>
+                        <td>
+                            <img class="imgincell" src= "/images/me2.jpg" alt="picoutdoor">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <th class="row" scope="row">3</th>
+                        <td class="row">1 nov 2024</td>
+                        <td class="row">Need a sisasta after a good scrumptious lunch</td>
+                        <td>
+                            <img class="imgincell" src= "/images/outdoor1.jpg" alt="piclunch">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th class="row" scope="row">3</th>
+                        <td class="row">15 nov 2024</td>
+                        <td class="row">Busy at work checking text messages</td>
+                        <td>
+                            <img class="imgincell" src= "/images/me.jpg" alt="picchkmsg">
+                        </td>
+                    </tr>
+                </tbody>
+              </table>               
+
+            </section>
+        </Div>
+
+        <!-- Footer -->
+        <div class="footer">
+          <h2>Contact</h2>
+          <P class="footer1">212-Pows-Now <br> Pows@PowLand.com</P>
+        </div>
+
+        <!-- The form -->
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+            <h1>Login</h1>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        
+            <button type="submit" class="btn">Login</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>          
+
+        <script src="app.js" async defer></script>
+    </body>
+</html>
