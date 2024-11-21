@@ -1,51 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contact</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style-contact.css">
-    </head>
 
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style-contact.css">
+</head>
 
-        <div class="contact">
-            <h3>Contact Form</h3>
-        </div>
-        <a href="#" onclick="history.go(-1)">Go Back</a>
-        <div class="container">
-            <form action="action_page.php">
+<body>
 
-                <label for="Title">Title</label>
-                <select id="title" name="title">
-                    <option value="Mister">Mister</option>
-                    <option value="Miss">Miss</option>
-                    <option value="Cat">Cat</option>
-                    <option value="Dog">Dog</option>
-                </select>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <div class="contact">
+        <h3>Contact Form</h3>
+    </div>
+    <a href="#" onclick="history.go(-1)">Go Back</a>
+    <div class="container">
+        <form action="action_page.php">
 
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="Title">Title</label>
+            <select id="title" name="title">
+                <option value="Mister">Mister</option>
+                <option value="Miss">Miss</option>
+                <option value="Cat">Cat</option>
+                <option value="Dog">Dog</option>
+            </select>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-                </select>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="Cat USA">Cat USA</option>
+                <option value="Cat-nada">Cat-nada</option>
+                <option value="Cat-tophia">Cat-tophia</option>
+                <option value="Cat-tacolism">Cat-tacolism</option>
+                <option value="Cat-trocious">Cat-trocious</option>
+            </select>
 
-                <input type="submit" value="Submit">
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-            </form>
-        </div>
-        <script src="app.js" async defer></script>
-    </body>
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+    <script src="app.js" async defer></script>
+</body>
 
 </html>
