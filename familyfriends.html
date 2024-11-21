@@ -1,78 +1,81 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>me the Cat</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="sytle.css">
-        <link rel="stylesheet" href="style-popupform.css">        
-        <link rel="stylesheet" href="style-familyfriends.css">
-        <!-- media screen size -->
-        <link rel="stylesheet" media="screen and (min-width: 600px)" href="style-600px.css">
-        <link rel="stylesheet" media="screen and (max-width: 900px)" href="style-900px.css">
-        <link rel="stylesheet" media="screen and (min-width: 1100px)" href="style-1100px.css">
-        <link rel="stylesheet" media="screen and (max-width: 13000px)" href="style-1300px.css">
-    </head>
 
-    <body>
-       
-        <!-- div for top bar-->
-        <Div class="topbar">
-            <img class="topbarimg" src="/images/meme.jpg" alt="me">
-            <div class="search">
-                <form action="#">
-                    <select id="title" name="title">
-                        <option value="Cat">Cat</option>
-                        <option value="Dog">Dog</option>
-                        <option value="Democrates">Democrates</option>
-                        <option value="Republicans">Republicans</option>
-                   </select>
-                    <button type="submit"> Search</button>
-                </form>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>me the Cat</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="stylesheet" href="style-popupform.css">
+    <link rel="stylesheet" href="style-familyfriends.css">
+    <!-- media screen size -->
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="style-600px.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="style-900px.css">
+    <link rel="stylesheet" media="screen and (min-width: 1100px)" href="style-1100px.css">
+    <link rel="stylesheet" media="screen and (max-width: 13000px)" href="style-1300px.css">
+</head>
+
+<body>
+
+    <!-- div for top bar-->
+    <Div class="topbar">
+        <img class="topbarimg" src="/images/meme.jpg" alt="me">
+        <div class="search">
+            <form action="#">
+                <select id="title" name="title">
+                    <option value="Cat">Cat</option>
+                    <option value="Dog">Dog</option>
+                    <option value="Democrates">Democrates</option>
+                    <option value="Republicans">Republicans</option>
+                </select>
+                <button type="submit"> Search</button>
+            </form>
+        </div>
+        <div class="signupbtn">
+            <button class="open-button2" id=open-button2ID onclick="openForm()">Sign in</button>
+            <!--<button onclick="document.getElementById('id01')">Sign Up</button>-->
+        </div>
+
+    </Div>
+
+    <!-- div for Nav bar-->
+    <Div class="navbar">
+        <!-- href="#">Experience: </a>  -->
+        <a href="index.html">Credentials</a>
+        <a href="HeadShots.html">Head Shots</a>
+        <a href="likes.html">Likes</a>
+        <a href="familyfriends.html">Family & Friends</a>
+        <a href="contact.html">Contact</a>
+        <!--<button class="open-button" onclick="openForm()">Contact</button>  -->
+    </Div>
+
+    <!-- div for body-->
+    <Div>
+        <section class="MyCredentials">
+            <div class="bodysectiontitle">
+                <p>
+                <h2>Family & Friends</h2>
+                </p>
+                <a href="#" onclick="history.go(-1)">Go Back</a>
             </div>
-            <div class="signupbtn">
-                <button class="open-button2" onclick="openForm()">Sign in</button>  
-                <!--<button onclick="document.getElementById('id01')">Sign Up</button>-->
+
+            <h1></h1>
+            <div class="flex-container">
+                <div><img class="imgincellflex" src="/images/friends.jpeg" alt="picnap"></div>
+                <div><img class="imgincellflex" src="/images/myfriends.jpg" alt="picnap"></div>
+                <div><img class="imgincellflex" src="/images/likes1.jpg" alt="picnap"></div>
+                <div><img class="imgincellflex" src="/images/getting some love.jpg" alt="picnap"></div>
             </div>
 
-        </Div>
-
-        <!-- div for Nav bar-->
-        <Div class="navbar">
-            <!-- href="#">Experience: </a>  -->
-            <a href="index.html">Credentials</a>
-            <a href="HeadShots.html">Head Shots</a>
-            <a href="likes.html">Likes</a>
-            <a href="familyfriends.html">Family & Friends</a>
-            <a href="contact.html">Contact</a> 
-            <!--<button class="open-button" onclick="openForm()">Contact</button>  -->
-        </Div>
-
-        <!-- div for body-->
-        <Div>
-            <section class="MyCredentials">
-                <div class="bodysectiontitle">
-                    <p> <h2>Family & Friends</h2></p>
-                    <a href="#" onclick="history.go(-1)">Go Back</a>                
-                </div>
-
-                <h1></h1>
-                <div class="flex-container">
-                    <div><img class="imgincellflex" src= "/images/eating burger.jpg" alt="picnap"></div>
-                    <div><img class="imgincellflex" src= "/images/myfriends.jpg" alt="picnap"></div>
-                    <div><img class="imgincellflex" src= "/images/likes1.jpg" alt="picnap"></div>
-                    <div><img class="imgincellflex" src= "/images/getting some love.jpg" alt="picnap"></div>
-                </div>
-                
-                <div class="flex-container">
-                    <div><img class="imgincellflex" src= "/images/eating burger.jpg" alt="picnap"></div>
-                    <div><img class="imgincellflex" src= "/images/eating burger.jpg" alt="picnap"></div>
-                    <div><img class="imgincellflex" src= "/images/eating burger.jpg" alt="picnap"></div>
-                    <div><img class="imgincellflex" src= "/images/eating burger.jpg" alt="picnap"></div>
-                </div>
-                <!--
+            <div class="flex-container">
+                <div><img class="imgincellflex" src="/images/eating burger.jpg" alt="picnap"></div>
+                <div><img class="imgincellflex" src="/images/eating burger.jpg" alt="picnap"></div>
+                <div><img class="imgincellflex" src="/images/eating burger.jpg" alt="picnap"></div>
+                <div><img class="imgincellflex" src="/images/eating burger.jpg" alt="picnap"></div>
+            </div>
+            <!--
                 <table class="table">
                 <thead>
                   <tr>
@@ -120,33 +123,34 @@
                     </tr>
                 </tbody>
               </table>   
-              -->            
+              -->
 
-            </section>
-        </Div>
+        </section>
+    </Div>
 
-        <!-- Footer -->
-        <div class="footer">
-          <h2>Contact</h2>
-          <P class="footer1">212-Pows-Now <br> Pows@PowLand.com</P>
-        </div>
-        
-        <!-- The form -->
-        <div class="form-popup" id="myForm">
-            <form action="/action_page.php" class="form-container">
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Contact</h2>
+        <P class="footer1">212-Pows-Now <br> Pows@PowLand.com</P>
+    </div>
+
+    <!-- The form -->
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
             <h1>Login</h1>
-        
+
             <label for="email"><b>Email</b></label>
             <input type="text" placeholder="Enter Email" name="email" required>
-        
+
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
-        
+
             <button type="submit" class="btn">Login</button>
             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-            </form>
-        </div>          
+        </form>
+    </div>
 
-        <script src="app.js" async defer></script>
-    </body>
+    <script src="app.js" async defer></script>
+</body>
+
 </html>

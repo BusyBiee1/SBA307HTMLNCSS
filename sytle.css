@@ -51,6 +51,21 @@
 margin-left:100px;
 }
 
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+/*input[type=open-button2]:hover {
+    background-color: #45a049;
+  }
+*/
+
+#open-button2ID:hover {
+    background-color: red;
+  }
+*/
+
+
 /*.search input[type="text"] {
     padding: 6px;
     margin-right: 10px;
@@ -162,11 +177,16 @@ margin-left:100px;
 .imgincellflex{
     /*max-width: 100%;*/
     /*max-height: 100%;*/
-     height: auto;
+     height: 200px;
      width: 350px;
      /*resize:both;*/
      /*aspect-ratio:inherit;*/
     /*width: 600px;*/
+}
+
+#imgincellHS{
+    height: auto;
+    width: 300px; 
 }
 
 .bodysectiontitle{

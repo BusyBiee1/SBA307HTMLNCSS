@@ -1,72 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>me the Cat</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="sytle.css">
-        <link rel="stylesheet" href="style-popupform.css">
-        <!-- media screen size -->
-        <link rel="stylesheet" media="screen and (min-width: 600px)" href="style-600px.css">
-        <link rel="stylesheet" media="screen and (max-width: 900px)" href="style-900px.css">
-        <link rel="stylesheet" media="screen and (min-width: 1100px)" href="style-1100px.css">
-        <link rel="stylesheet" media="screen and (max-width: 13000px)" href="style-1300px.css">
-    </head>
 
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>me the Cat</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="stylesheet" href="style-popupform.css">
+    <!-- media screen size -->
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="style-600px.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="style-900px.css">
+    <link rel="stylesheet" media="screen and (min-width: 1100px)" href="style-1100px.css">
+    <link rel="stylesheet" media="screen and (max-width: 13000px)" href="style-1300px.css">
+</head>
 
-        <!-- div for top bar-->
-        <Div class="topbar" id="topbarimg">
-            <img class="topbarimg" src="/images/meme.jpg" alt="me">
-            <div class="search">
-                <form action="#">
-    <!--                <input type="text" placeholder="Search"
+<body>
+
+    <!-- div for top bar-->
+    <Div class="topbar" id="topbarimg">
+        <img class="topbarimg" src="/images/meme.jpg" alt="me">
+        <div class="search">
+            <form action="#">
+                <!--                <input type="text" placeholder="Search"
                            name="search"> -->
-                    <select id="title" name="title">
-                         <option value="Cat">Cat</option>
-                         <option value="Dog">Dog</option>
-                         <option value="Democrates">Democrates</option>
-                         <option value="Republicans">Republicans</option>
-                    </select>
-                    <button type="submit"> Search</button>
-                </form>
+                <select id="title" name="title">
+                    <option value="Cat">Cat</option>
+                    <option value="Dog">Dog</option>
+                    <option value="Democrates">Democrates</option>
+                    <option value="Republicans">Republicans</option>
+                </select>
+                <button type="submit"> Search</button>
+            </form>
+        </div>
+        <div class="signupbtn">
+            <button class="open-button2" id=open-button2ID onclick="openForm()">Sign in</button>
+            <!--<button onclick="document.getElementById('id01')">Sign Up</button>-->
+        </div>
+
+    </Div>
+
+    <!-- div for Nav bar-->
+    <Div class="navbar">
+        <!-- href="#">Experience: </a>  -->
+        <a href="index.html">Credentials</a>
+        <a href="HeadShots.html">Head Shots</a>
+        <a href="likes.html">Likes</a>
+        <a href="familyfriends.html">Family & Friends</a>
+        <a href="contact.html">Contact</a>
+        <!--<button class="open-button" onclick="openForm()">Contact</button>  -->
+    </Div>
+
+    <!-- div for body-->
+    <Div>
+        <section class="MyCredentials">
+            <div class="bodysectiontitle">
+                <p>
+                <h2>Credentials</h2>
+                </p>
+                <!--<a href="#" onclick="history.go(-1)">Go Back</a>  -->
             </div>
-            <div class="signupbtn">
-                <button class="open-button2" onclick="openForm()">Sign in</button>  
-                <!--<button onclick="document.getElementById('id01')">Sign Up</button>-->
-            </div>
-
-        </Div>
-
-        <!-- div for Nav bar-->
-        <Div class="navbar">
-            <!-- href="#">Experience: </a>  -->
-            <a href="index.html">Credentials</a>
-            <a href="HeadShots.html">Head Shots</a>
-            <a href="likes.html">Likes</a>
-            <a href="familyfriends.html">Family & Friends</a>
-            <a href="contact.html">Contact</a> 
-            <!--<button class="open-button" onclick="openForm()">Contact</button>  -->
-        </Div>
-
-        <!-- div for body-->
-        <Div>
-            <section class="MyCredentials">
-                <div class="bodysectiontitle">
-                    <p> <h2>Credentials</h2></p>
-                    <!--<a href="#" onclick="history.go(-1)">Go Back</a>  -->
-                </div>
-                <table class="table">
+            <table class="table">
                 <thead>
-                  <tr>
-                    <th class="col" scope="col">#</th>
-                    <th class="col" scope="col">Date</th>
-                    <th class="col" scope="col">Location</th>
-                    <th class="col" scope="col">Desc</th>
-                    <th class="col" scope="col">Img</th>
-                  </tr>
+                    <tr>
+                        <th class="col" scope="col">#</th>
+                        <th class="col" scope="col">Date</th>
+                        <th class="col" scope="col">Location</th>
+                        <th class="col" scope="col">Desc</th>
+                        <th class="col" scope="col">Img</th>
+                    </tr>
                 </thead>
                 <tbody>
                     <tr>
@@ -75,27 +78,27 @@
                         <td class="row">My special bed and pillow in the house</td>
                         <td class="row">Busy life. So its good to catch some sleep as much as possible</td>
                         <td>
-                            <img class="imgincell" src= "/images/nap.jpg" alt="picnap">
+                            <img class="imgincell" src="/images/nap.jpg" alt="picnap">
                         </td>
                     </tr>
-                    
+
                     <tr>
                         <th class="row" scope="row">2</th>
                         <td class="row">19th oct 2024</td>
                         <td class="row">backyard</td>
                         <td class="row">Hunting for fun. Hurting in the backyard is my fav sport</td>
                         <td>
-                            <img class="imgincell" src= "/images/outdoor1.jpg" alt="picoutdoor">
+                            <img class="imgincell" src="/images/outdoor1.jpg" alt="picoutdoor">
                         </td>
                     </tr>
-                    
+
                     <tr>
                         <th class="row" scope="row">3</th>
                         <td class="row">1 nov 2024</td>
                         <td class="row">yackyard patios deck</td>
                         <td class="row">Need a sisasta after a good scrumptious lunch</td>
                         <td>
-                            <img class="imgincell" src= "/images/after lunch.jpg" alt="piclunch">
+                            <img class="imgincell" src="/images/after lunch.jpg" alt="piclunch">
                         </td>
                     </tr>
 
@@ -105,48 +108,51 @@
                         <td class="row">At work - got a make a living</td>
                         <td class="row">Busy at work checking text messages</td>
                         <td>
-                            <img class="imgincell" src= "/images/checking messages.jpg" alt="picchkmsg">
+                            <img class="imgincell" src="/images/checking messages.jpg" alt="picchkmsg">
                         </td>
                     </tr>
                 </tbody>
-              </table>               
+            </table>
 
-            </section>
+        </section>
 
-            <section class="MyLikes">
+        <section class="MyLikes">
 
 
-            </section>
-            <section class="MyFamilyFriends">
+        </section>
+        <section class="MyFamilyFriends">
 
-            </section>
-            <section class="MyContact">
+        </section>
+        <section class="MyContact">
 
-            </section>
-        </Div>
+        </section>
+    </Div>
 
-        <!-- Footer -->
-        <div class="footer">
-          <h2>Contact</h2>
-          <P class="footer1">212-Pows-Now <br> Pows@PowLand.com</P>
-        </div>
-  
-        <!-- The form -->
-        <div class="form-popup" id="myForm">
-            <form action="/action_page.php" class="form-container">
+    <!--       <hr class="sepline"> -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Contact</h2>
+        <P class="footer1">212-Pows-Now <br> Pows@PowLand.com</P>
+    </div>
+
+    <!-- The form -->
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
             <h1>Login</h1>
-        
+
             <label for="email"><b>Email</b></label>
             <input type="text" placeholder="Enter Email" name="email" required>
-        
+
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
-        
+
             <button type="submit" class="btn">Login</button>
             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-            </form>
-        </div>        
+        </form>
+    </div>
 
-        <script src="app.js" async defer></script>
-    </body>
+    <script src="app.js" async defer></script>
+</body>
+
 </html>
